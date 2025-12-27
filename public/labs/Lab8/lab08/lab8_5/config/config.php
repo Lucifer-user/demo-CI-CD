@@ -1,0 +1,12 @@
+<?php
+$configDB = array();
+$configDB["host"] 		= "localhost";
+$configDB["database"]	= "lab_thuchanh";
+$configDB["username"] 	= "root";
+$configDB["password"] 	= "";
+define("HOST", "localhost");
+define("DB_NAME", "lab_thuchanh");
+define("DB_USER", "root");
+define("DB_PASS", "");
+define('ROOT', dirname(dirname(__FILE__) ) );
+define("BASE_URL", "http://".$_SERVER['SERVER_NAME']."/lab_thuchanh/");

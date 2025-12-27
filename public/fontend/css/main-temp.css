@@ -1,0 +1,130 @@
+﻿/* ============================================
+   AURA BEAUTY - CSS Thuáº§n
+   ============================================ */
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8f6f6;
+  color: #1e293b;
+}
+
+/* Dark Mode */
+html.dark {
+  background-color: #221015;
+  color: #e2e8f0;
+}
+
+html.dark body {
+  background-color: #221015;
+}
+
+/* Variables CSS */
+:root {
+  --primary: #ee2b5b;
+  --bg-light: #f8f6f6;
+  --bg-dark: #221015;
+  --text-light: #1e293b;
+  --text-dark: #e2e8f0;
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main Layout */
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-light);
+}
+
+html.dark .main-wrapper {
+  background-color: var(--bg-dark);
+}
+
+/* ============================================
+   HEADER / NAVIGATION
+   ============================================ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(238, 43, 91, 0.2);
+  background-color: rgba(248, 246, 246, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 12px 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 12px 32px;
+  }
+}
+
+html.dark header {
+  background-color: rgba(34, 16, 21, 0.8);
+  border-bottom-color: rgba(238, 43, 91, 0.3);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-left a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: fit-content;
+}
+
+.logo-icon {
+  HERO SECTION============================================*/ .hero {
+    margin: 24px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 480px;
